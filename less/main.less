@@ -1,0 +1,213 @@
+@import "vendors/bootstrap/bootstrap.less";
+@import "vendors/font-awesome/font-awesome.less";
+
+@primary:#b30000;
+@secondary:#f2f2f2;
+@third:#333333;
+@black:#000000;
+@gray:#e0e0eb;
+
+header {
+
+  height:200px;
+  width:100%;
+  border-radius:2px;
+  background-image:linear-gradient(@primary, @primary 60%, white);
+  color:white;
+  font-weight:bold;
+}
+
+header .logo {
+  float:left;
+  height:200px;
+  margin-top:3px;
+}
+
+header h1 {
+  font-size:40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px;
+}
+
+.loginform {
+  float:right;
+  padding-left:20px;
+}
+
+.checkbox {
+  margin-right:40px;
+}
+
+#cnavbar {
+  padding-top:50px;
+  text-align:center;
+}
+
+#cnavbar  li {
+  list-style: none;
+  display:inline;
+  font-size:20px;
+  padding-right:10px;
+  text-decoration: none;
+  color:@secondary;
+}
+
+#cnavbar li a {
+  text-decoration: none !important;
+  color:@primary !important;
+}
+
+#cnavbar li a:hover {
+  text-decoration: none;
+  background-color: @secondary;
+//  background-color: @primary;
+}
+
+.navbar-header a {
+  text-decoration: none;
+  color:@primary;
+}
+
+.line {
+  height:5px;
+  border-radius:5px;
+  width:100%;
+  background-image:linear-gradient(@primary, @primary 60%, white);
+  opacity:.5;
+}
+// login section
+#login {
+  padding-top:50px;
+  display:table;
+  width:100%;
+  text-align:center;
+  background: url("../img/login.jpg") no-repeat bottom center-scroll;
+  height:900px;
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+ background-size:cover;
+background-color:@third;
+}
+#login h1 {
+  padding-bottom:60px;
+  color:@secondary !important;
+  font-weight:bold;
+  font-size:100px;
+}
+#login button {
+  margin-right:20px;
+  width:300px !important;
+  font-size:26px;
+  border-radius: 10px;
+}
+
+.top-nav-collapse{
+  padding:0;
+  background-color:@black;
+  }
+
+
+
+.welcome {
+  font-size: 50px;
+  color:@third !important;
+}
+
+textarea {
+  height:300px !important;
+  width:300px !important;
+
+}
+
+section {
+  padding-top:50px;
+}
+
+#whyus {
+  height:500px;
+  //width:100%;
+//  background-color:@secondary;
+}
+
+//Icon Blocks
+
+.block-icon-left{
+  overflow:auto;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin:0 0 10px 0;
+    padding:0;
+    font-size:20px;
+  }
+
+  .icon-content {
+    float:left;
+    width:70%;
+  }
+
+  .icon{
+    float:left;
+    width:30%;
+    margin-top:10px;
+  }
+}
+
+
+#about {
+
+  width:100%;
+  background: url("../img/bloodcells.jpg") no-repeat bottom center-scroll;
+  height:400px;
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+ background-size:cover;
+background-color:@third;
+color:@secondary;
+
+}
+
+#about h1 {
+  font-weight:200;
+  font-size:100px;
+
+}
+
+#about p {
+  font-size:20px;
+  line-height: 1.1em;
+}
+
+#questionnaireform label {
+  display:block;
+}
+
+#questionnaireform textarea {
+  height:50px !important;
+  width:30% !important;
+}
+
+footer {
+    height:75px;
+    background-color: @secondary;
+}
+
+footer p {
+  color:@primary;
+  padding-top:20px;
+  font-size:20px;
+
+}
+
+#contact {
+  background-color:@secondary;
+  color:@primary;
+  height:300px;
+  width:100%;
+}
+
+.content-section {
+  padding: 70px 0 40px 0;
+}
